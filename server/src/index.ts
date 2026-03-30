@@ -24,7 +24,6 @@ wss.on("connection", function connection(ws) {
     });
 
     console.log(`UserCount: ${++userCount}`);
-    ws.send("Welcome to the WebSocket server!");
 })
 
 
